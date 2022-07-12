@@ -1,199 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+            integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS"
+            crossorigin="anonymous"
+        />
 
-    <title>Portafolio</title>
-</head>
-<body>
-    
-    <div class="wrapper">
+        <title>Portafolio</title>
+    </head>
+    <body class="dark">
+        <div class="wrapper">
+            <!-- Nab-bar -->
+            <header class="header">
+                <nav class="navbar">
+                    <div class="switch">
+                        <h2>BJ<span>CN</span></h2>
+                        <div class="toggle-theme" id="toggle-theme">
+                            <img
+                                id="toggle-icon"
+                                src="./assets/icons/sun.svg"
+                                alt="icon-theme"
+                                class="toggle-theme__icon"
+                            />
+                            <p class="toggle-theme__text" id="toggle-text">
+                                Light Mode
+                            </p>
+                        </div>
+                        <div class="flags" id="flags" >
+                            <div class="flags__item" data-language="es">
+                                <img src="./assets/es.svg" alt="spainFlag" />
+                            </div>
+                            <div class="flags__item" data-language="en">
+                                <img src="./assets/gb.svg" alt="engFlag" />
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="Menu">
+                        <li><a href="#main">Home</a></li>
+                        <li><a href="#about">About me</a></li>
+                        <li><a href="#portafolio">Portafolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-        <!-- Nab-bar -->
-        <header>
-            <nav class="navbar">
-                <div class="brand">
-                    <h2>BJ<span>CN</span></h2>
+            <!-- Hero -->
+            <main class="main" id="main" >
+                <div class="info-content">
+                    <h1 data-section="profile" data-value="greetings">Hello there, I'm <span>Billy</span> Campagnoli</h1>
+                    <p data-section="profile" data-value="introduction">
+                        I am a young technology enthusiast, from an early age
+                        video games have caught my attention and over time the
+                        internet. As I grew older, every time I was very curious
+                        to know how the games and the pages I visited worked,
+                        that's when I got to know programming and became more
+                        and more fond of it.
+                    </p>
+                    <a download href="/assets/Billy Campagnoli CV.pdf">
+                        <button class="dowload-cv">Download CV</button>
+                    </a>
                 </div>
-                <ul class="Menu">
-                    <li><a class="Active" href="#main">Home</a></li>
-                    <li><a href="#about">About me</a></li>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#contact-section">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+                <img
+                    src="img/Foto de perfil.jpg"
+                    alt="Billy Campagnoli picture"
+                />
+            </main>
+        </div>
 
-        <!-- Hero -->
-        <main class="main" id="main">
+        <!-- About-me -->
+        <div class="about" id="about">
+            <img src="img/Foto de perfil.jpg" alt="Billy Campagnoli portrait" />
 
-            <div class="info-content">
-                <h1>I'm <span>Billy</span> Campagnoli</h1>
-                <p>I am a young technology enthusiast, from an early age video games have caught my attention and over time the internet. As I grew older, every time I was very curious to know how the games and the pages I visited worked, that's when I got to know programming and became more and more fond of it.</p>
-                <a download href="/assets/Resume Billy Campagnoli.pdf"> 
-                    <button class="dowload-cv">Download CV</button>
-                </a>
-            </div>
-            <img src="img/Foto de perfil.jpg" alt="Billy Campagnoli picture">
-            
-        </main>
-    </div>
-
-    <!-- About-me -->
-<div class="about" id="about">
-
-        <img  src="img/Foto de perfil.jpg" alt="Billy Campagnoli portrait">
-
-        <div class="about-info ">
-            <h2>About me</h2>
+            <div class="about-info">
+                <h2 data-section="profile" data-value="about-title">About me</h2>
                 <div class="divider"></div>
-                <p>Currently I don't have a lot of experience working with programming in general, but I'm quite a quick learner and confident in my abilities. Mainly the Back-end development catches my attention since it is the part with which I feel most identified, but I have also learned to love the Front-end, although I am still learning both areas.</p>
-                <p>Otherwise I have a high understanding of the English language, I can write texts and communicate conversationally with someone who speaks natural English, despite the fact that my mother tongue is Spanish, I have basic knowledge of other technological and mechanical areas such as electrogenic and refrigeration</p>
+                <p data-section="profile" data-value="about-1">
+                    Currently I don't have a lot of experience working with
+                    programming in general, but I'm quite a quick learner and
+                    confident in my abilities. Mainly the Back-end development
+                    catches my attention since it is the part with which I feel
+                    most identified, but I have also learned to love the
+                    Front-end, although I am still learning both areas.
+                </p>
+                <p data-section="profile" data-value="about-2">
+                    Otherwise I have a high understanding of the English
+                    language, I can write texts and communicate conversationally
+                    with someone who speaks natural English, despite the fact
+                    that my mother tongue is Spanish.
+                </p>
                 <button class="dowload-cv">Read more</button>
-        </div>
-</div>
-
-
-<!-- Portafolio -->
-<div class="portafolio" id="portafolio">
-    <div class="portfolio-headings">
-        <h2>My Portfolio</h2>
-        <div class="divider"></div>
-    </div>
-    <div class="contenedor">
-        <div class="card">
-            <div class="card-img">
-            </div>
-            <div class="card__title">
-                <h2>Project Description</h2>
-            </div>
-            <div class="project_links">
-                <a href="https://github.com/Bfix40?tab=repositories" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="">
-                    <i class="fa-solid fa-globe"></i>
-                </a>
-                <a href="">
-                    <i class="fa-solid fa-code"></i>
-                </a>
-            </div>
-            <div class="project-details-content">
-                <button class="Project_details dowload-cv">
-                    <a href="">
-                        Project details
-                    </a>
-                </button>
             </div>
         </div>
-        <div class="card">
-            <div class="card-img">
+
+        <!-- Portafolio -->
+        <div class="portafolio" id="portafolio">
+            <div class="portfolio-headings">
+                <h2 data-section="experiences" data-value="projects-section">My Portfolio</h2>
+                <div class="divider"></div>
             </div>
-            <div class="card__title">
-                <h2>Project Description</h2>
-            </div>
-            <div class="project_links">
-                <a href="https://github.com/Bfix40/E-commerce" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="https://6234ee145781b710aada5312--determined-yonath-b186e3.netlify.app/#wrapper" target="_blank">
-                    <i class="fa-solid fa-globe"></i>
-                </a>
-                <a href="https://github.com/Bfix40/E-commerce/blob/main/index.html">
-                    <i class="fa-solid fa-code"></i>
-                </a>
-            </div>
-            <div class="project-details-content">
-                <button class="Project_details dowload-cv">
-                    <a href="">
-                        Project details
-                    </a>
-                </button>
+            <div class="contenedor">
+                <div class="card">
+                    <div class="card-img-1"></div>
+                    <div class="card__title">
+                        <h2 data-section="experiences" data-value="project-1">A E-commerce made only in html & JavaScript, it has integrated a JavaScript function that simulates a buyout</h2>
+                    </div>
+                    <div class="project_links">
+                        <a
+                            href="https://github.com/Bfix40?tab=repositories"
+                            target="_blank"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://bfix40ecommerce-html-js.netlify.app/">
+                            <i class="fa-solid fa-globe"></i>
+                        </a>
+                        <a href="https://github.com/Bfix40/E-commerce">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+                    <div class="project-details-content">
+                        <button class="Project_details dowload-cv">
+                            <a href="https://github.com/Bfix40/E-commerce" data-section="experiences" data-value="project-detail_1"> More info </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-2"></div>
+                    <div class="card__title">
+                        <h2 data-section="experiences" data-value="project-2">Weather app made in React.js consuming a API that need to obtain users permission to work with GeoLocation</h2>
+                    </div>
+                    <div class="project_links">
+                        <a
+                            href="https://github.com/Bfix40?tab=repositories"
+                            target="_blank"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a
+                            href="https://bfix40-weather-react-app.netlify.app/"
+                            target="_blank"
+                        >
+                            <i class="fa-solid fa-globe"></i>
+                        </a>
+                        <a
+                            href="https://github.com/Bfix40/Second-React-App"
+                        >
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+                    <div class="project-details-content">
+                        <button class="Project_details dowload-cv">
+                            <a href="https://github.com/Bfix40/Second-React-App" data-section="experiences" data-value="project-detail_2"> More info </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-3"></div>
+                    <div class="card__title">
+                        <h2 data-section="experiences" data-value="project-3">A Rick & Morty wiki that randomly take you to different universes consuming a API from R&M universes</h2>
+                    </div>
+                    <div class="project_links">
+                        <a
+                            href="https://github.com/Bfix40?tab=repositories"
+                            target="_blank"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://rick-and-morty-wk.netlify.app/">
+                            <i class="fa-solid fa-globe"></i>
+                        </a>
+                        <a href="https://github.com/Bfix40/Third-react-app">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                    </div>
+                    <div class="project-details-content">
+                        <button class="Project_details dowload-cv">
+                            <a href="https://github.com/Bfix40/Third-react-app" data-section="experiences" data-value="project-detail_3"> More info </a>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-img">
+
+        <!-- Contacto -->
+        <div class="contact-section" id="contact">
+            <div class="contact-headings">
+                <h2 data-section="contact" data-value="reminder">Keep in touch</h2>
+                <div class="divider"></div>
             </div>
-            <div class="card__title">
-                <h2>Project Description</h2>
-            </div>
-            <div class="project_links">
-                <a href="https://github.com/Bfix40?tab=repositories" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="">
-                    <i class="fa-solid fa-globe"></i>
-                </a>
-                <a href="">
-                    <i class="fa-solid fa-code"></i>
-                </a>
-            </div>
-            <div class="project-details-content">
-                <button class="Project_details dowload-cv">
-                    <a href="">
-                        Project details
-                    </a>
-                </button>
+
+            <div class="container-contact">
+                <img
+                    src="/img/programming-coding-programmer-sitting-at-desk-and-working-ofiice-table-with-laptop-documents-lamp-coffee-flat-design-vector.jpg"
+                    alt="programador sentado"
+                />
+
+                <div class="contact-form">
+                    <h4 data-section="contact" data-value="message">Send me a message</h4>
+                    <div class="divider"></div>
+                    <form class="form">
+                        <input type="text" placeholder="Name" />
+                        <input type="email" placeholder="Email" />
+                        <textarea placeholder="Place your message here">
+                        </textarea>
+                        <button type="submit" class="btn-submit" data-section="contact" data-value="send" >
+                            Send me a message
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
-</div>
 
-
-<!-- Contacto -->
-<div class="contact-section">
-    
-    <div class="contact-headings">
-        <h2>Keep in touch</h2>
-        <div class="divider"></div>
-    </div>
-    
-    <div class="container-contact">
-        <img src="/img/programming-coding-programmer-sitting-at-desk-and-working-ofiice-table-with-laptop-documents-lamp-coffee-flat-design-vector.jpg" alt="programador sentado">
-        
-        <div class="contact-form">
-            <h4>Send me a message</h4>
-            <div class="divider"></div>
-            <form class="form">
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Place your message here">
-                </textarea>
-                <button type="submit" class="btn-submit">
-                    Send me a message
-                </button>
-            </form>
-        </div>
-
-    </div>
-</div>
-
-
-<!-- footer -->
-<footer class="footer">
-    <div class="footer-content">
-        <h2>Billy Campagnoli</h2>
-        <h5>Web Developer</h5>
-    </div>
-    <div class="social-network">
-        <a href="#">
-            <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="#">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/billy-campagnoli-221621223/" target="_blank"> 
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-        
-    </div>
-</footer>
-
-</body>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <h2>Billy Campagnoli</h2>
+                <h5 data-section="footer" data-value="footer">Web Developer</h5>
+            </div>
+            <div class="social-network">
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/billy-campagnoli-221621223/"
+                    target="_blank"
+                >
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
 </html>
-
-

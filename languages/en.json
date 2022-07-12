@@ -1,0 +1,26 @@
+{
+    "profile": {
+        "greetings": "Hello there, I'm <span>Billy</span> Campagnoli",
+        "introduction": "I am a young technology enthusiast, from an early age video games have caught my attention and over time the internet. As I grew older, every time I was very curious to know how the games and the pages I visited worked, that's when I got to know programming and became more and more fond of it.",
+        "about-title": "About Me",
+        "about-1": "Currently I don't have a lot of experience working with programming in general, but I'm quite a quick learner and confident in my abilities. Mainly the Back-end development catches my attention since it is the part with which I feel most identified, but I have also learned to love the Front-end, although I am still learning both areas.",
+        "about-2": "Otherwise I have a high understanding of the English language, I can write texts and communicate conversationally with someone who speaks natural English, despite the fact that my mother tongue is Spanish."
+    },
+    "experiences": {
+        "projects-section": "My Portfolio",
+        "project-1": "A E-commerce made only in html & JavaScript, it has integrated a JavaScript function that simulates a buyout",
+        "project-2": "Weather app made in React.js consuming a API that need to obtain users permission to work with GeoLocation",
+        "project-3": "A Rick & Morty wiki that randomly take you to different universes consuming a API from R&M universes",
+        "project-detail_1": "More info",
+        "project-detail_2": "More info",
+        "project-detail_3": "More info"
+    },
+    "contact": {
+        "reminder": "Keep in touch",
+        "message": "Send me a message",
+        "send": "Send me a message"
+    },
+    "footer": {
+        "footer": "Web Developer"
+    }
+}

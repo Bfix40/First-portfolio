@@ -1,0 +1,26 @@
+{
+    "profile": {
+        "greetings": "Hola soy <span>Billy</span> Campagnoli",
+        "introduction": "Soy un joven entusiasta de la tecnología, desde muy temprana edad me han llamado la atención los videojuegos y con el tiempo el internet. A medida que fui creciendo, cada vez tenía mucha curiosidad por saber cómo funcionaban los juegos y las páginas que visitaba, fue entonces cuando conocí la programación y me aficioné cada vez más a ella.",
+        "about-title": "Sobre mi",
+        "about-1": "Actualmente no tengo mucha experiencia trabajando con la programación en general, pero aprendo bastante rápido y confío en mis habilidades. Principalmente me llama la atención el desarrollo del Back-end ya que es la parte con la que más identificado me siento, pero también he aprendido a amar el Front-end, aunque sigo aprendiendo ambas áreas.",
+        "about-2": "Por lo demás tengo un alto conocimiento del idioma inglés, puedo escribir textos y comunicarme conversacionalmente con alguien que hable inglés natural, a pesar de que mi lengua materna es el español."
+    },
+    "experiences":{
+        "projects-section": "Mi Portafolio",
+        "project-1": "Un E-commerce realizado únicamente en html y JavaScript, tiene integrada una función de JavaScript que simula una compra",
+        "project-2": "Aplicación meteorológica hecha en React.js que consume una API que necesita obtener permiso de los usuarios para trabajar con GeoLocation",
+        "project-3": "Una wiki de Rick & Morty que te lleva aleatoriamente a diferentes universos consumiendo una API de los universos de R&M",
+        "project-detail_1": "Detalles",
+        "project-detail_2": "Detalles",
+        "project-detail_3": "Detalles"
+    },
+    "contact":{
+        "reminder": "Contactenos",
+        "message": "Mande un mensaje",
+        "send": "Enviar"
+    },
+    "footer":{
+        "footer":"Desarrollador Web"
+    }
+}
