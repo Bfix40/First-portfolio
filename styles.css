@@ -147,6 +147,7 @@ span {
 }
 
 .main img {
+    width: auto;
     border: 7px solid aqua;
     height: 26.25em;
 }
