@@ -33,19 +33,3 @@ const changeLanguage = async language => {
 flagsElements.addEventListener('click', (e) => {
     changeLanguage(e.target.parentElement.dataset.language)
 })
-// function addElement() {
-//     // crea un nuevo div
-//     // y añade contenido
-//     var newDiv = document.createElement("div");
-//     var newContent = document.createTextNode("Hola!¿Qué tal?");
-//     newDiv.appendChild(newContent); //añade texto al div creado.
-
-//     // añade el elemento creado y su contenido al DOM
-//     var currentDiv = document.getElementById("guacamole");
-//     document.body.insertBefore(newDiv, currentDiv);
-//     console.log(currentDiv);
-// }
-
-// document.body.onload = addElement;
-
-// console.log("Yo que se que pasa");

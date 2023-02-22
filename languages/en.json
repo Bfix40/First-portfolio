@@ -1,9 +1,16 @@
 {
+    "headers": {
+        "home": "Home",
+        "contact": "Contact",
+        "light mode":"Light mode",
+        "dark mode":"Dark mode"
+    },
     "profile": {
         "greetings": "Hello there, I'm <span>Billy</span> Campagnoli",
+        "Resume": "Download CV",
         "introduction": "I am a young technology enthusiast, from an early age video games have caught my attention and over time the internet. As I grew older, every time I was very curious to know how the games and the pages I visited worked, that's when I got to know programming and became more and more fond of it.",
         "about-title": "About Me",
-        "about-1": "Currently I don't have a lot of experience working with programming in general, but I'm quite a quick learner and confident in my abilities. Mainly the Back-end development catches my attention since it is the part with which I feel most identified, but I have also learned to love the Front-end, although I am still learning both areas.",
+        "about-1": "I am very excited about new challenges, because of that I'm quite a quick learner and confident in my abilities. Mainly the Back-end development catches my attention since it is the part with which I feel most identified, but I have also learned to love the Front-end, although I am still learning both areas.",
         "about-2": "Otherwise I have a high understanding of the English language, I can write texts and communicate conversationally with someone who speaks natural English, despite the fact that my mother tongue is Spanish."
     },
     "experiences": {
