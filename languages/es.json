@@ -18,6 +18,7 @@
         "project-1": "Un E-commerce realizado únicamente en html y JavaScript, tiene integrada una función de JavaScript que simula una compra",
         "project-2": "Aplicación meteorológica hecha en React.js que consume una API que necesita obtener permiso de los usuarios para trabajar con GeoLocation",
         "project-3": "Una wiki de Rick & Morty que te lleva aleatoriamente a diferentes universos consumiendo una API de los universos de R&M",
+        "project-4": "Una aplicación web construida con python/django enfocada en monedas y criptomonedas, permite consultar el tipo de cambio de nuestra moneda preferida a otra",
         "project-detail_1": "Detalles",
         "project-detail_2": "Detalles",
         "project-detail_3": "Detalles"
